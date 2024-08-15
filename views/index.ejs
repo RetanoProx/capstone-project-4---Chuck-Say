@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Chuck say</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Titan+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+</head>
+
+<body>
+  <div class="card">
+    <p>
+      <%= value %>
+    </p>
+  </div>
+  <p class="user">
+    <button id="chuckQuote"><h1>Chuck say</h1></button>
+  </p>
+
+  <script>
+    document.getElementById('chuckQuote').addEventListener('click', function() {
+        location.reload();
+    });
+</script>
+
+</body>
+
+</html>
